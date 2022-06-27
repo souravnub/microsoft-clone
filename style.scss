@@ -29,7 +29,7 @@ a {
     color: white;
     font-size: 0.8rem;
     margin-top: 0.4rem;
-    padding: 0.4em 0.7em;
+    padding: 0.7em 1.3em;
     position: relative;
     transition: background-color 500ms ease;
     i {
@@ -40,7 +40,7 @@ a {
         i {
             transform: translateX(4px);
         }
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(39, 39, 39);
     }
 }
 
@@ -222,6 +222,7 @@ body {
             .card {
                 display: flex;
                 flex-direction: column;
+
                 img {
                     max-width: 100%;
                 }
@@ -230,11 +231,15 @@ body {
                 }
                 p {
                     font-size: 0.75rem;
+                    margin-bottom: 0.8rem;
                 }
                 a {
                     color: rgb(22, 115, 190);
                     font-size: 0.9rem;
                     text-transform: capitalize;
+                    margin-top: auto;
+                    margin-bottom: 0.5rem;
+                    display: block;
                     i {
                         margin-left: 0.2rem;
                         transition: transform 200ms ease;

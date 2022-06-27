@@ -34,7 +34,7 @@ a {
   color: white;
   font-size: 0.8rem;
   margin-top: 0.4rem;
-  padding: 0.4em 0.7em;
+  padding: 0.7em 1.3em;
   position: relative;
   transition: background-color 500ms ease;
 }
@@ -44,7 +44,7 @@ a {
 }
 
 .main-link:hover {
-  background-color: #333333;
+  background-color: #272727;
 }
 
 .main-link:hover i {
@@ -236,6 +236,7 @@ body .container .spec-section .card span {
 body .container .products-section .card p,
 body .container .spec-section .card p {
   font-size: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
 body .container .products-section .card a,
@@ -243,6 +244,9 @@ body .container .spec-section .card a {
   color: #1673be;
   font-size: 0.9rem;
   text-transform: capitalize;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 body .container .products-section .card a i,
